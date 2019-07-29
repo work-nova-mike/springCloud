@@ -1,0 +1,49 @@
+HELP.md
+config/target/
+eureka/target/
+gateway/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+config/.apt_generated
+config/.classpath
+config/.factorypath
+config/.project
+config/.settings
+config/.springBeans
+config/.sts4-cache
+
+eureka/.apt_generated
+eureka/.classpath
+eureka/.factorypath
+eureka/.project
+eureka/.settings
+eureka/.springBeans
+eureka/.sts4-cache
+
+gateway/.apt_generated
+gateway/.classpath
+gateway/.factorypath
+gateway/.project
+gateway/.settings
+gateway/.springBeans
+gateway/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
